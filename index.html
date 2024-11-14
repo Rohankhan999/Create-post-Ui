@@ -165,7 +165,7 @@
         <div style="display: flex; align-items:normal;"><img src="https://cdn-icons-png.flaticon.com/128/6749/6749099.png" alt="img" width="50px" height="50px" style="margin-left:20px; margin-top:15px; align-items:normal;"><p>Log Out</p>
         </div>
         </aside>
-     <section>
+     <!-- <section>
       <div class="Posts">
           <input type="text" id="inputtext" placeholder="What's On Your Mind!">
           <button id="submit" onclick="CreatePost()">Create a post</button>
@@ -179,7 +179,18 @@
           </div>
        
       </div>
-  </section>
+  </section> -->
+  <section>
+    <div class="Posts">
+        <input type="text" id="inputtext" placeholder="What's On Your Mind!" />
+        <button id="submit" onclick="CreatePost()">Create a post</button>
+    </div>
+    <div class="postDone">
+        <h1 id="heading">Posts</h1>
+        <div id="postContainer" style="height: auto; width:auto; background-color: red; margin-left: 50px; margin-right: 50px; border-radius: 20px;"></div>
+    </div>
+</section>
+
     <script src="app.js"></script>
   </body>
 </html>
