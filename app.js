@@ -1,6 +1,3 @@
-
-
-
 function CreatePost() {
     var input = document.getElementById("inputtext");
     var mainHeading = document.getElementById("mainHeading");
